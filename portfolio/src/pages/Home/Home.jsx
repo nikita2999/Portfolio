@@ -35,7 +35,7 @@ Let’s build something amazing together!</div>
 
       <div className="my-skills" data-aos="fade-up">My Skills</div>
 
-      <div className="skills-list">
+      <div className="skills-list" data-aos="fade-up">
         <div className='skills-main'>
         <div className="flip-card">
           <div className="flip-card-inner">
