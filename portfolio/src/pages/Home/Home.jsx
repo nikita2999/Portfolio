@@ -2,7 +2,6 @@ import React,{useEffect, useState} from 'react';
 import './Home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Typical from 'react-typical';
 
 
 const Home = () => {
@@ -20,12 +19,7 @@ const Home = () => {
       <div className="my-name" id="home" data-aos="fade-up">
         <h1>Hey, my name is</h1>
         <h2>Nikita Sharma</h2>
-        <h3>
-        <Typical
-          steps={['Software Developer', 1500, 'AI Enthusiast', 1500, 'Full Stack Developer', 1500]}
-          loop={Infinity}
-          wrapper="span"
-        />
+        <h3>Software Developer
       </h3>
       </div>
       <div className="about-me" id="about" data-aos="fade-right">
