@@ -17,7 +17,7 @@ const Home = () => {
 I’m always eager to explore new technologies and build solutions that are not only functional but also user-friendly. My goal is to grow as a developer, contribute to meaningful projects, and secure a challenging SDE role at a top tech company.
 Let’s build something amazing together!</div>
        </div>
-       <figure className='me'> <img src="./public/me.png" /> </figure>
+       <figure className='me'> <img src="./me.png" /> </figure>
          </div>
 
       <div className="my-skills">My Skills</div>
@@ -27,7 +27,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/html-5.png" alt="HTML" />
+              <img src="./html-5.png" alt="HTML" />
               <span>HTML</span>
             </div>
             <div className="flip-card-back">
@@ -38,7 +38,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/css-3.png" alt="CSS" />
+              <img src="./css-3.png" alt="CSS" />
               <span>CSS</span>
             </div>
             <div className="flip-card-back">
@@ -49,7 +49,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/js.png" alt="JavaScript" />
+              <img src="./js.png" alt="JavaScript" />
               <span>JS</span>
             </div>
             <div className="flip-card-back">
@@ -60,7 +60,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/library.png" alt="React" />
+              <img src="./library.png" alt="React" />
               <span>Reactjs</span>
             </div>
             <div className="flip-card-back">
@@ -71,7 +71,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/nodejs.png" alt="Nodejs" />
+              <img src="./nodejs.png" alt="Nodejs" />
               <span>Nodejs</span>
             </div>
             <div className="flip-card-back">
@@ -82,7 +82,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/c-.png" alt="C++" />
+              <img src="./c-.png" alt="C++" />
               <span>C++</span>
             </div>
             <div className="flip-card-back">
@@ -93,7 +93,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/api.png" alt="API" />
+              <img src="./api.png" alt="API" />
               <span>REST Api</span>
             </div>
             <div className="flip-card-back">
@@ -104,7 +104,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/mysql.png" alt="MySQL" />
+              <img src="./mysql.png" alt="MySQL" />
               <span>MySQL</span>
             </div>
             <div className="flip-card-back">
@@ -115,7 +115,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/social.png" alt="Git" />
+              <img src="./social.png" alt="Git" />
               <span>Git</span>
             </div>
             <div className="flip-card-back">
@@ -126,7 +126,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/python.png" alt="Python" />
+              <img src="./python.png" alt="Python" />
               <span>Python</span>
             </div>
             <div className="flip-card-back">
@@ -137,7 +137,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/wordpress.png" alt="Wordpress" />
+              <img src="./wordpress.png" alt="Wordpress" />
               <span>Wordpress</span>
             </div>
             <div className="flip-card-back">
@@ -148,7 +148,7 @@ Let’s build something amazing together!</div>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src="./public/postman.png" alt="Postman" />
+              <img src="./postman.png" alt="Postman" />
               <span>Postman</span>
             </div>
             <div className="flip-card-back">
@@ -178,7 +178,7 @@ Let’s build something amazing together!</div>
 </button>
 </div> </div>
         <figure className="project-card1">
-    <img src="./public/project1.png" alt="Project1" />
+    <img src="./project1.png" alt="Project1" />
         </figure>
       </div>
        <div className="project list">
@@ -197,7 +197,7 @@ Let’s build something amazing together!</div>
 </button>
 </div> </div>
         <figure className="project-card1">
-    <img src="./public/project2.png" alt="Project2" />
+    <img src="./project2.png" alt="Project2" />
         </figure>
       </div>
       <div className="project list">
@@ -216,7 +216,7 @@ Let’s build something amazing together!</div>
 </button>
 </div> </div>
         <figure className="project-card1">
-    <img src="./public/project3.png" alt="Project3" />
+    <img src="./project3.png" alt="Project3" />
         </figure>
       </div>
       <div className="project list">
@@ -233,7 +233,7 @@ from article content. Developed WordPress REST APIs to manage poll metadata and 
         </div>
         <figure className="project-card1">
   <video width="100%" controls muted loop>
-    <source src="./public/project4.mp4" type="video/mp4" />
+    <source src="./project4.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </figure>
