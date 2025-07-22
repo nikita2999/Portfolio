@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 .app{
-    background-image: url("./public/bg.jpg");
+    background-image: url("/bg.jpg");
         background-color: #000000;
     background-repeat: no-repeat;
 }
