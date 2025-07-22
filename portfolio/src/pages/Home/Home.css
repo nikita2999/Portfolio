@@ -209,6 +209,27 @@ button.visit{
     border-radius: 50%;
     margin-left: 20px;
   }
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f22121;
+  color: #dee0db;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(242, 33, 33, 0.5);
+}
+
+.project.list {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project.list:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
 @media (max-width: 768px) {
   .my-name {
     margin-top: 100px;

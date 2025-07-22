@@ -1,15 +1,34 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import './Home.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Typical from 'react-typical';
+
 
 const Home = () => {
+   useEffect(() => {
+    AOS.init({ duration: 1000, once: true }); // Animate once per scroll
+  }, []);
+    const [showTyped, setShowTyped] = useState(false);
+
+  useEffect(() => {
+    setShowTyped(true); // render Typed only after mount
+  }, []);
   return (
     <div>
-      <div className="my-name" id="home">
+      
+      <div className="my-name" id="home" data-aos="fade-up">
         <h1>Hey, my name is</h1>
         <h2>Nikita Sharma</h2>
-        <h3>Software Developer</h3>
+        <h3>
+        <Typical
+          steps={['Software Developer', 1500, 'AI Enthusiast', 1500, 'Full Stack Developer', 1500]}
+          loop={Infinity}
+          wrapper="span"
+        />
+      </h3>
       </div>
-      <div className="about-me" id="about">
+      <div className="about-me" id="about" data-aos="fade-right">
        <div className="left-sec">
           <div className="about-me-title">About Me</div>
           <div className="about-me-description">
@@ -20,7 +39,7 @@ Let’s build something amazing together!</div>
        <figure className='me'> <img src="./me.png" /> </figure>
          </div>
 
-      <div className="my-skills">My Skills</div>
+      <div className="my-skills" data-aos="fade-up">My Skills</div>
 
       <div className="skills-list">
         <div className='skills-main'>
@@ -158,10 +177,10 @@ Let’s build something amazing together!</div>
         </div>
       </div>
       </div>
-      <div className="projects" id="projects">
+      <div className="projects" id="projects" data-aos="fade-up">
         Projects
       </div>
-      <div className="projects-main">
+      <div className="projects-main" data-aos="fade-up">
         <div className="project list">
           <div className="project-left">
           <div className="project-name">CyberShield</div>
