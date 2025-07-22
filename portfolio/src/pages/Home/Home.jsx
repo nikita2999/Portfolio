@@ -33,7 +33,7 @@ Let’s build something amazing together!</div>
        <figure className='me'> <img src="./me.png" /> </figure>
          </div>
 
-      <div className="my-skills" data-aos="fade-up">My Skills</div>
+      <div className="my-skills" data-aos="fade-up" id="myskills">My Skills</div>
 
       <div className="skills-list" data-aos="fade-up">
         <div className='skills-main'>
