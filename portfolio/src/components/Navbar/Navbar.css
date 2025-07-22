@@ -1,0 +1,41 @@
+.nav-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.logo img {
+    width: 114px;
+    height: 75px;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+.nav-item{
+    color: aliceblue;
+}
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;      
+    gap: 12px;                   
+    padding: 15px 10px;
+    border-bottom: none;       
+  }
+
+  .logo img {
+    width: 90px;                
+    height: auto;              
+    left: 0;
+    top: 20px;
+    margin: 0 auto;             
+    display: block;
+    position: relative;
+  }
+
+  .nav-item {
+    font-size: 16px;            
+    text-align: center;
+  }
+}

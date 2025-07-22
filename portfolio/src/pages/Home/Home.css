@@ -1,0 +1,289 @@
+.my-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  color: #dee0db; 
+ margin-top: 200px;
+}
+.my-name h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.my-name h2{
+    font-size: 60px;
+    font-weight: 800;
+}
+.my-name h3{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F76211; 
+ background-image: linear-gradient(45deg, #F76211 15%, #D651AA 30%, #3C37C4 42%, #C722A0 30%, #F76211 96%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent;
+}
+
+.html img{
+    width: 100px;
+    height: 100px;
+}
+.skills-list{
+    border: 2px solid hsl(120, 1%, 68%);
+    border-radius: 10px;
+    background-color: #383839;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dee0db;
+    border: 2px solid #9a9b99c4;
+    border-radius: 10px; 
+    padding: 20px;
+    width: 200px;
+    margin-top: 10px;
+}
+.my-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dee0db;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 180px;
+  perspective: 1000px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #383839;
+  color: #dee0db;
+  border: 2px solid #9a9b99c4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    padding-top: 10px;
+}
+
+.flip-card-front img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  font-size: 20px;
+  font-weight: bold;
+  color: #F76211;
+}
+.skills-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 15px 0;
+}
+.projects{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dee0db;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.project-card1 img{
+    width: 500px;
+    height: 500px;
+}
+.project-card1 {
+    margin: 20px;
+}
+.project-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f0f1ee;
+    margin-top: 20px;
+}
+.tech-stack {
+    display: inline-block;
+    background-color: #383839;
+    color: #dee0db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.project-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.project.list {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 30px;
+}
+.project-card1 img{
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+}
+button {
+    background-color: #F76211;
+    color: #dee0db;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button.visit{
+    margin-top: 10px;
+    background-color: #010011;
+    border: 2px solid #F76211;
+  }
+  button:hover {
+    background-color: #f22121;
+    color: #dee0db;
+  }
+  .description {
+    margin: 10px 15px 10px 0;
+  }
+  .tech-stack1{
+    display: inline-block;
+    background-color: #383839;
+    color: #dee0db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0;
+  }
+  .about-me {
+    display: flex;
+    color: #dee0db;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 100px;
+  }
+.about-me-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  } 
+  .me img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+@media (max-width: 768px) {
+  .my-name {
+    margin-top: 100px;
+  }
+  .my-name h1,
+  .my-name h2,
+  .my-name h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .html img,
+  .me img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .my-skills,
+  .projects {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .skills-main {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .flip-card {
+    width: 250px;
+    height: 200px;
+  }
+
+  .items {
+    width: 90%;
+  }
+
+  .project.list {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .project-card1 img {
+    width: 100%;
+    height: auto;
+    max-width: 90vw;
+  }
+
+  .project-left {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px 0 20px;
+  }
+
+  .about-me-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .description {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  button,
+  button.visit {
+    width: 100%;
+    max-width: 250px;
+  }
+}
