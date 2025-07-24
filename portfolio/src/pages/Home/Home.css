@@ -137,6 +137,7 @@
     justify-content: center;
     color: #f0f1ee;
     margin-top: 20px;
+    margin-left: 20px;
 }
 .tech-stack {
     display: inline-block;
@@ -222,6 +223,7 @@ button:hover {
 
 .project.list {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:  0px 2px 237px 75px rgba(34, 78, 231, 0.29);
 }
 
 .project.list:hover {
